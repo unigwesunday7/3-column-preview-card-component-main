@@ -1,1 +1,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 60px 220px;
+}
+
+#container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.col {
+    padding: 50px 50px 60px;
+}
+.col-1 {
+    background-color: hsl(31, 77%, 52%);
+}
+.col-2 {
+    background-color: hsl(184, 100%, 22%);
+}
+.col-3 {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.icon {
+    margin-bottom: 30px;
+}
+
+.products h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.description p {
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: .9rem;
+    line-height: 1.7rem;
+    margin-bottom: 80px;
+}
+
+.btn a {
+    font-size: .9rem;
+    text-decoration: none;
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: hsl(0, 0%, 95%);
+    padding: 11px 25px;
+    border-radius: 40px;
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+}
+
+.col-1-btn {
+    color: hsl(31, 77%, 52%);
+}
+.col-1-btn:hover {
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(31, 77%, 52%);
+}
+
+.col-2-btn {
+    color: hsl(184, 100%, 22%);
+}
+.col-2-btn:hover {
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(184, 100%, 22%);
+}
+
+.col-3-btn {
+    color:  hsl(179, 100%, 13%);
+}
+.col-3-btn:hover {
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(179, 100%, 13%);
+}

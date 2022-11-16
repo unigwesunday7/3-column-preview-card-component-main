@@ -21,6 +21,8 @@ body {
 section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 10px;
+    overflow: hidden;
 }
 .col {
     padding: 50px 50px 60px;
@@ -87,4 +89,23 @@ section {
 .col-3-btn:hover {
     color: hsla(0, 0%, 100%, 0.75);
     background-color: hsl(179, 100%, 13%);
+}
+
+
+
+
+/* ############ Mobile Version ############# */
+
+@media screen and (max-width: 500px) {
+    body {
+        padding: 40px 20px;
+    }
+
+    #container {
+        display: block;
+    }
+    
+    section {
+        display: block;
+    }
 }
